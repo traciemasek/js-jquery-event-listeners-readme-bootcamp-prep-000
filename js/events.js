@@ -7,7 +7,7 @@ function getIt() {
 
 function frameIt() {
   $('.tasty').on('load', () => {
-    $('.tasty').css({ border: ''})
+    $('.tasty').css({ borderColor: 'red'})
   })
 }
 
