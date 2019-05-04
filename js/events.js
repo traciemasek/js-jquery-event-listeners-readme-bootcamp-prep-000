@@ -8,7 +8,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', () => {
     console.log("Did it load?");
-    $('img').addClass("tasty")
+    $('img').addClass('tasty')
   })
 }
 
