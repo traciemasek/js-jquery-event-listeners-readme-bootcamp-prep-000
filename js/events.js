@@ -6,11 +6,16 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load', () => {
+  $('img').on('load', function() {
     console.log("Did it load?");
     $('img').addClass('tasty')
   })
 }
+
+function pressIt() {
+  
+}
+
 
 $(document).ready(function(){
 
